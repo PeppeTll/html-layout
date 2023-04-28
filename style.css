@@ -1,0 +1,132 @@
+/* prima di scrivre il vostro css aggiungete la regola di reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* aggiungo un padding al body in modo da farvi vedere meglio i bordi delle sezioni */
+.debug {
+  padding: 20px;
+}
+
+/* secione yellow */
+/* aggiungo un padding alle sezioni per farvi vedere meglio i bordi */
+.debug .section__yellow{
+  border: 3px solid yellow;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+}
+
+.debug .contenitore-1__section__yellow{
+  border: 2px dotted yellow;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.debug .primo-figlio__contenitore-1 {
+  border: 2px solid yellow;
+  width: 100%;
+  height: 40%;
+}
+
+.debug .secondo-figlio__contenitore-1 {
+  border: 2px solid yellow;
+  width: 100%;
+  height: 40%;
+}
+/* fine sezione yellow */
+
+/* sezione violet */
+/* aggiungo un padding alle sezioni per farvi vedere meglio i bordi */
+.debug .section__violet{
+  border: 3px solid violet;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+}
+
+.debug .contenitore-2__section__violet{
+  border: 2px dotted violet;
+  width: 100%;
+  height: 100%;
+}
+
+.debug .contenitore-2__section__violet{
+  border: 2px dotted violet;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.debug .primo-figlio__contenitore-2 {
+  border: 2px solid violet;
+  width: 45%;
+  height: 100%;
+}
+
+.debug .secondo-figlio__contenitore-2 {
+  border: 2px solid violet;
+  width: 45%;
+  height: 100%;
+}
+/* fine sezione violet */
+
+/* sezione red */
+/* aggiungo un padding alle sezioni per farvi vedere meglio i bordi */
+.debug .section__red{
+  border: 3px solid red;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+}
+
+.debug .contenitore-3__section__red{
+  border: 2px dotted red;
+  width: 100%;
+  height: 100%;
+}
+
+.debug .contenitore-3__section__red {
+  border: 2px dotted red;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.debug .primo-figlio__contenitore-3 {
+  border: 1px solid red;
+  /* width: calc(100%/4) il calc prendere il 100% del contenitore padre e lo divide per 4, ovvero il numero totale di figli */
+  width: calc(100%/4);
+  height: 100%;
+}
+.debug .secondo-figlio__contenitore-3 {
+  border: 1px solid red;
+  /* width: calc(100%/4) il calc prendere il 100% del contenitore padre e lo divide per 4, ovvero il numero totale di figli */
+  width: calc(100%/4);
+  height: 100%;
+}
+.debug .terzo-figlio__contenitore-3 {
+  border: 1px solid red;
+  /* width: calc(100%/4) il calc prendere il 100% del contenitore padre e lo divide per 4, ovvero il numero totale di figli */
+  width: calc(100%/4);
+  height: 100%;
+}
+.debug .quarto-figlio__contenitore-3 {
+  border: 1px solid red;
+  /* width: calc(100%/4) il calc prendere il 100% del contenitore padre e lo divide per 4, ovvero il numero totale di figli */
+  width: calc(100%/4); 
+  height: 100%;
+}
+/* fine sezione red */
